@@ -1,0 +1,22 @@
+main{
+  margin: 10px 50px 10px 50px;
+  font-size: small;
+  line-height: 25px;
+}
+
+.image-grid {
+  width: 80%;
+  display: inline-flex;
+
+}
+img {
+  width: 40%;
+  height: 40%;
+  text-align: center;
+  border-radius: 0px;
+} 
+
+p, h2{
+  margin-left: 20px;
+  width: 90%;
+}
