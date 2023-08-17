@@ -67,6 +67,18 @@ h2{
     font-weight: 200;
 }
 
+#image-container{
+    display: flex;
+    padding-top: 6rem;
+    margin: auto auto;
+    justify-content: center;
+}
+
+.portrait {
+    width: 60%;
+    border-radius: 35px;
+}
+
 @media(max-width:1000px){
     
     .hamburger{
@@ -109,6 +121,7 @@ h2{
         left: 33%;
         font-size: 1.5rem;
         transition: 0.3s;
+        margin-bottom: 30px;
     }
     .clara {
         transition: 0.8s;
@@ -131,6 +144,14 @@ h2{
         display: none;
         transition: 0.5s;
     }
+
+    main{
+        margin-top: 50px;
+    }
+
+    .portrait{
+        border-radius: 5px;
+    }
 }
 
 
@@ -139,16 +160,7 @@ h2{
 h1 {
     width: 33%;
     text-align: center;
+    
 }
 
-#image-container{
-    display: flex;
-    padding-top: 6rem;
-    margin: auto auto;
-    justify-content: center;
-}
 
-img {
-    width: 60%;
-    border-radius: 35px;
-}
